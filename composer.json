@@ -1,0 +1,20 @@
+{
+  "name": "yii2-mini",
+  "description": "Yii PHP Framework Version 2 - Development Package",
+  "keywords": [
+    "yii2",
+    "framework"
+  ],
+  "homepage": "http://www.yiiframework.com/",
+  "license": "BSD-3-Clause",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "ext-mbstring": "*",
+    "ext-ctype": "*",
+    "lib-pcre": "*"
+  },
+  "autoload": {
+    "psr-4": {"yii\\": ""}
+  }
+}
